@@ -10,7 +10,7 @@ function Cards({item, buyMarketItem}) {
   return (
     <div className='card-div'>
     <div className='card-inner p-2'>
-        <img src={item.image} alt="" className='object-cover rounded overflow-hidden'/>
+        <img src={item.image} alt="" className='object-cover w-[230px] h-[230px] rounded overflow-hidden'/>
         <div className='flex flex-col justify-center items-center'>
         <h3 className='text-white text-2xl font-thin mt-3'>{item.name}</h3>
         <div className='flex text-white justify-between items-center mb-3 gap-4 mt-3'>
