@@ -39,7 +39,7 @@ function App() {
         const address = await signer.getAddress();
         setAccount(address);
         setLoading(false)
-        let marketplaceAddress = "0xd944bD35a99fF8437586CA98C024553DdC140080";
+        let marketplaceAddress = "0x5B020e60691BaA4A388D153d4Db204f5ab028853";
        
 
         const marketplacecontract = new ethers.Contract(
