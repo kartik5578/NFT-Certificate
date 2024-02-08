@@ -67,7 +67,7 @@ function NFTs({ marketplace, setNFTitem}) {
   )
 
   return (
-    <div className='flex flex-wrap  gap-10 justify-center pt-24 pb-5 px-16'>
+    <div className='flex flex-wrap gradient-bg-welcome   gap-10 justify-center pt-24 pb-5 px-16'>
          {
      ( items.length > 0 ?
     
