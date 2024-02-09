@@ -101,7 +101,7 @@ function Create({marketplace}) {
 
 
   const mintThenList = async (uri) => { 
-    toast.info("Confirm to Mint the BST", {
+    toast.info("Confirm to Mint the SBT", {
       position: "top-center"
     })
 
